@@ -25,5 +25,15 @@ public class ex04 {
             resultado = num1 - num2;
             System.out.println("O resultado da subtração é: " + resultado);
             break;
+            case 3:
+            resultado = num1 * num2;
+            System.out.println("O resultado da multiplicação é: " + resultado);
+            break;
+            case 4:
+            resultado = num1 / num2;
+            System.out.println("O resultado da divisão é: " + resultado);
+            break;
+        }
+        scanner.close();
     }
 }
